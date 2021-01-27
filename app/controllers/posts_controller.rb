@@ -3,12 +3,14 @@ class PostsController < ApplicationController
 
   # GET /posts
   # GET /posts.json
+  # index.html.erbに紐づいてる
   def index
     @posts = Post.all
   end
 
   # GET /posts/1
   # GET /posts/1.json
+  #show.html.erbに紐づいてる
   def show
   end
 
